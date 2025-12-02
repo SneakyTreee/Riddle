@@ -47,21 +47,7 @@ _See the game in action!_
 
 ---
 
-## Project Structure 📂
 
-```
-
-Riddle/
-├── public/
-│ └── images/ # Screenshots, GIFs, icons, and static assets
-├── src/ # React source code (components, pages, styles)
-├── package.json # Project metadata & dependencies
-├── package-lock.json
-└── README.md # This file
-
-```
-
----
 
 ## Contributing 🤝
 
@@ -69,7 +55,3 @@ Contributions are welcome! Improve the UI, add riddles, or add new features.
 Fork the repo, make changes, and open a pull request.
 
 ---
-
-## License 📄
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
