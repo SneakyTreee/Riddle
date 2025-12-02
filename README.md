@@ -1,4 +1,3 @@
-```markdown
 # Riddle 🎲🧩
 
 > A React-based web riddle game — challenge your mind, solve riddles, and have fun!
@@ -49,6 +48,7 @@ _See the game in action!_
 ---
 
 ## Project Structure 📂
+
 ```
 
 Riddle/
@@ -64,11 +64,12 @@ Riddle/
 ---
 
 ## Contributing 🤝
+
 Contributions are welcome! Improve the UI, add riddles, or add new features.
 Fork the repo, make changes, and open a pull request.
 
 ---
 
 ## License 📄
+
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
