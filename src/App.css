@@ -1,3 +1,9 @@
+html,
+#root,
+header {
+  overflow: hidden;
+}
+
 .App {
   text-align: center;
 }
@@ -24,6 +30,37 @@
   color: white;
 }
 
+input,
+#log,
+#hidden-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-radius: 12px;
+  background-color: transparent;
+  border: 2px solid white;
+  transition: transform 0.3s ease;
+  margin: 2rem;
+}
+
+#hidden-btn {
+  position: fixed;
+  top: 5%;
+  right: 2%;
+  width: 5px;
+  height: 2%;
+  color: transparent;
+  /* border: 0px solid transparent; */
+}
+
+input,
+button:hover {
+  transform: scale(1.1);
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -34,5 +71,73 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/*  */
+
+.text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.gradient {
+  font-size: 5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  animation: glitchMove 0.8s infinite linear alternate-reverse,
+    neonFlash 1s infinite;
+  text-shadow: 2px 0 #3f5efb, -2px 0 #fc466b, 0 2px #fddb92, 0 -2px #fff;
+}
+
+@keyframes glitchMove {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  10% {
+    transform: translate(-6px, 6px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(6px, -6px) rotate(1deg);
+  }
+  30% {
+    transform: translate(-6px, -6px) rotate(-1deg);
+  }
+  40% {
+    transform: translate(6px, 6px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-6px, 0) rotate(0deg);
+  }
+  60% {
+    transform: translate(6px, -6px) rotate(1deg);
+  }
+  70% {
+    transform: translate(-6px, 6px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(6px, 0) rotate(0deg);
+  }
+  90% {
+    transform: translate(-6px, -6px) rotate(-1deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+
+@keyframes neonFlash {
+  0%,
+  80%,
+  100% {
+    text-shadow: 2px 0 #3f5efb, -2px 0 #fc466b, 0 2px #fddb92, 0 -2px #fff;
+  }
+  85%,
+  90% {
+    text-shadow: 5px 0 #fff, -5px 0 #fff, 0 5px #fff, 0 -5px #fff;
   }
 }
