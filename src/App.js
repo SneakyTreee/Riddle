@@ -8,7 +8,7 @@ function App() {
     "This is a Game if you Manage to get all Hint's you will be rewarded"
   );
   const [counter, setCounter] = useState(0);
-
+  // TEST
   const handleHiddenButtonClick = () => {
     if (isButtonClicked) return;
     setIsGradient(true);
