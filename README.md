@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 Absolutely! Here’s a **GitHub-ready, polished README** for your React Riddle project with badges, screenshot section, and a clean structure. You can copy it directly into your `README.md`.
 
 Make sure you save your screenshot as `demo-screenshot.png` in `public/images/` or adjust the path accordingly.
 
 ```markdown
+=======
+>>>>>>> 9f78a77e069fbf72aefa9f9cb02325f770e42e21
 # Riddle 🎲🧩
 
 > A React-based web riddle game — challenge your mind, solve riddles, and have fun!
@@ -13,10 +16,16 @@ Make sure you save your screenshot as `demo-screenshot.png` in `public/images/` 
 
 ---
 
+<<<<<<< HEAD
 ## About
 
 Riddle is a fun and interactive **React** web application where users can solve riddles, submit answers, and get instant feedback.  
 It’s lightweight, responsive, and easy to extend with new riddles — perfect for testing your brain or sharing with friends.
+=======
+## About  
+Riddle is a fun and interactive **React** web application where users can solve riddles, submit answers, and get instant feedback.  
+It’s lightweight, responsive, and easy to extend with new riddles — perfect for testing your brain or sharing with friends.  
+>>>>>>> 9f78a77e069fbf72aefa9f9cb02325f770e42e21
 
 ---
 
@@ -40,6 +49,7 @@ It’s lightweight, responsive, and easy to extend with new riddles — perfect 
 
 ## Demo 🎬
 
+<<<<<<< HEAD
 Try the live version here: [Riddle Live Demo](https://riddle-amber.vercel.app)
 
 ![Riddle Screenshot](public/images/demo-screenshot.png)  
@@ -73,3 +83,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ```
 
 ---
+=======
+![Riddle Screenshot](public/images/demo-screenshot.png)  
+*Screenshot of the app — update the path if you place it elsewhere.*
+
+---
+
+## Project Structure 📂  
+>>>>>>> 9f78a77e069fbf72aefa9f9cb02325f770e42e21
